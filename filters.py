@@ -18,6 +18,7 @@ if __name__ == '__main__':
 
     uniform_blurred_img = uniform_blur(orig_img)
     cv2.namedWindow('Window 1')
+    
     cv2.namedWindow('Window 2')
     print (orig_img.shape)
     print (uniform_blurred_img.shape)
